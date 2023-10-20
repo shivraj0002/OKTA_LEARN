@@ -1,0 +1,26 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "standard"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@okta/oidc-middleware": "^4.3.0",
+    "@okta/okta-sdk-nodejs": "^5.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "okta": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "standard": "^16.0.4"
+  }
+}
